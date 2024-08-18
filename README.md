@@ -39,3 +39,5 @@ Connecting to Kali server via PUTTY connect in the Windows box:
 
 ![image](https://github.com/user-attachments/assets/570b5cd0-aef2-4ea8-8e24-d73e932cace8)
 
+
+
