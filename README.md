@@ -18,8 +18,15 @@
 
 
 ## Steps
-1. Start Kali and open a terminal. Type in sudo apt install openssh-server.
-2. Once it is installed, we want to start the service, type in sudo service ssh start.
+1. Start Kali and open a terminal. Type
+```bash
+sudo apt install openssh-server
+```
+2. Once it is installed, we want to start the service, type
+```bash
+sudo service ssh start
+```
+
 3. The SSH service should be ready to go.
 4. Create a folder on the Kali desktop and label it "SSH Test"
 5. In the folder make another folder called "Test 1"
@@ -31,9 +38,16 @@
 11. Once the PUTTY executable opens, type in the IP address for the Kali box in the Host Name (or IP address). Click Open.
 12. Login as Kali, and input the password for your Kali box.
 13. Now we are connected and fully administering the Kali box using SSH.
-14. To verify, input the command: ls
-15. You can now see the Kali Desktop and folders. Input the command ls Desktop to see the folder you created earlier.
-16. You will now see this folder (I named my folder elsa), and can verify you are fully administering the Kali box!
+14. To verify, input the command:
+```bash
+ls
+```
+16. You can now see the Kali Desktop and folders. Input the command
+```bash
+ls Desktop
+```
+to see the the folder you created earlier.
+18. You will now see this folder (I named my folder elsa), and can verify you are fully administering the Kali box!
 
 Connecting to Kali server via PUTTY connect in the Windows box:
 
